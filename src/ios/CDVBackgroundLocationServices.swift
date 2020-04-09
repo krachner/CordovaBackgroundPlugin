@@ -200,7 +200,7 @@ var activityCommandDelegate:CDVCommandDelegate?;
         background = true;
 
         if(enabled) {
-            locationManager.startUpdating(force: false);
+            locationManager.startUpdating(force: true);
             activityManager.startDetection();
         }
     }
